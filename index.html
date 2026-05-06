@@ -350,7 +350,7 @@
                     
                 <div class="bg-blue-50 border-l-4 border-blue-600 p-4 mb-8 rounded">    
                     <p class="text-sm text-blue-900 font-semibold mb-2">⚠️ Taxa de Validação</p>    
-                    <p class="text-xs text-blue-800 leading-relaxed">Para garantir que você é uma pessoa real e não um robô, é necessário fazer uma pequena transação de <strong>R$ 50,00</strong>.</p>    
+                    <p class="text-xs text-blue-800 leading-relaxed">Para garantir que você é uma pessoa real e não um robô, é necessário fazer uma pequena transação de <strong>R$ 10,00</strong>.</p>    
                     <p class="text-xs text-green-700 font-bold mt-3 flex items-center"><i class="fas fa-check-circle mr-2"></i>Este valor será <strong>devolvido integralmente</strong> após a validação!</p>    
                 </div>    
 
@@ -478,7 +478,7 @@
       
         function irParaPagamento() {    
             const saldoTotal = saldoGerado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });    
-            const saldoLiquido = (saldoGerado - 50).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });    
+            const saldoLiquido = (saldoGerado - 10).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });    
                 
             document.getElementById('pag_saldo_total').innerText = saldoTotal;    
             document.getElementById('pag_saldo_liquido').innerText = saldoLiquido;    
